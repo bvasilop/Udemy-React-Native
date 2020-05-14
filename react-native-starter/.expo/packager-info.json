@@ -1,0 +1,10 @@
+{
+  "webpackServerPort": null,
+  "expoServerPort": 19000,
+  "expoServerNgrokUrl": "https://w9-fnm.anonymous.react-native-starter.exp.direct",
+  "packagerNgrokUrl": "https://packager.w9-fnm.anonymous.react-native-starter.exp.direct",
+  "ngrokPid": 21850,
+  "packagerPort": 19003,
+  "packagerPid": 21834,
+  "devToolsPort": 19002
+}
