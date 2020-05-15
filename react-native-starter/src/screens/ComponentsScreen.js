@@ -1,21 +1,27 @@
 import React from 'react';
 import { Text, StyleSheet, View } from 'react-native';
 
-const titleStyles = StyleSheet.create({
-  textStyle: {
-    fontSize: 30,
+const styles = StyleSheet.create({
+  titleStyle: {
+    fontSize: 45,
   },
-});
-const greetingStyles = StyleSheet.create({
-  textStyle: {
-    fontSize: 25,
+  greetingStyle: {
+    fontSize: 20,
     color: 'blue',
   },
 });
-const title = (
-  <Text style={titleStyles.textStyle}>This is the components screen</Text>
+
+const titleText = 'Getting started with React Native!';
+const title = <Text style={styles.titleStyle}>{titleText}</Text>;
+
+const greetingText = 'My name is';
+const name = 'Bill';
+
+const greeting = (
+  <Text style={styles.greetingStyle}>
+    {greetingText} {name}
+  </Text>
 );
-const greeting = <Text style={greetingStyles.textStyle}>Hi there!</Text>;
 
 const ComponentsScreen = () => (
   <View>
