@@ -10,19 +10,21 @@ const styles = StyleSheet.create({
 
 const ListScreen = () => {
   const friends = [
-    { name: 'Mitch' },
-    { name: 'Paul' },
-    { name: 'Mo' },
-    { name: 'Pat' },
-    { name: 'George' },
+    { name: 'Mitch', age: '45' },
+    { name: 'Paul', age: '48' },
+    { name: 'Mo', age: '49' },
+    { name: 'Pat', age: '40' },
+    { name: 'George', age: '45' },
   ];
   return (
     <FlatList
-      horizontal
-      showsHorizontalScrollIndicator={false}
+      //   horizontal
+      //   showsHorizontalScrollIndicator={false}
       data={friends}
       renderItem={({ item }) => (
-        <Text style={styles.textStyle}>{item.name}</Text>
+        <Text style={styles.textStyle}>
+          {item.name} - Age {item.age}
+        </Text>
       )}
       style={styles.listStyles}
       keyExtractor={friend => friend.name}
