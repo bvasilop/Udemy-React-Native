@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, StyleSheet } from 'react-native';
+import { Text, StyleSheet, View, Button } from 'react-native';
 
 const styles = StyleSheet.create({
   text: {
@@ -7,6 +7,13 @@ const styles = StyleSheet.create({
   },
 });
 
-const HomeScreen = () => <Text style={styles.text}>Hello World!</Text>;
-
+const HomeScreen = () => (
+  <View>
+    <Text style={styles.text}>Hi there!</Text>
+    <Button
+      onPress={() => console.log('button pressed')}
+      title="Go to Components Demo"
+    />
+  </View>
+);
 export default HomeScreen;
