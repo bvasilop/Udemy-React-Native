@@ -1,5 +1,6 @@
 import React from 'react';
-import { Text, StyleSheet, View, Button } from 'react-native';
+import PropTypes from 'prop-types';
+import { Text, StyleSheet, View, Button, TouchableOpacity } from 'react-native';
 
 const styles = StyleSheet.create({
   text: {
@@ -7,13 +8,20 @@ const styles = StyleSheet.create({
   },
 });
 
-const HomeScreen = () => (
+const HomeScreen = ({ navigation }) => (
   <View>
     <Text style={styles.text}>Hi there!</Text>
     <Button
-      onPress={() => console.log('button pressed')}
+      onPress={() => navigation.navigate('Components')}
       title="Go to Components Demo"
     />
+    <TouchableOpacity onPress={() => console.log('List Pressed')}>
+      <Text>Go to List Demo</Text>
+    </TouchableOpacity>
   </View>
 );
 export default HomeScreen;
+
+HomeScreen.propTypes = {
+  navigation: PropTypes.object,
+};
