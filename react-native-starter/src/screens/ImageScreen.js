@@ -1,10 +1,12 @@
+/* eslint-disable no-use-before-define */
 /* eslint-disable global-require */
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import ImageDetail from '../components/ImageDetail';
 
 const ImageScreen = () => (
-  <View>
+  <View style={styles.image}>
+    <Text style={styles.text}>Images</Text>
     <ImageDetail
       title="Forest"
       imageSource={require('../../assets/forest.jpg')}
@@ -20,6 +22,16 @@ const ImageScreen = () => (
   </View>
 );
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  image: {
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  text: {
+    fontSize: 30,
+    fontWeight: 'bold',
+    padding: 10,
+  },
+});
 
 export default ImageScreen;
