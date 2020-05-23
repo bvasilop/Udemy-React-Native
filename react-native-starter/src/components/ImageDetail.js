@@ -3,12 +3,12 @@
 import React from 'react';
 import { View, Text, StyleSheet, Image } from 'react-native';
 import PropTypes from 'prop-types';
-import { BorderlessButton } from 'react-native-gesture-handler';
 
-const ImageDetail = ({ title, imageSource }) => (
+const ImageDetail = ({ title, score, imageSource }) => (
   <View>
     <Image source={imageSource} />
     <Text style={styles.text}>{title}</Text>
+    <Text style={styles.text}>Image score - {score}</Text>
   </View>
 );
 
@@ -17,7 +17,8 @@ const styles = StyleSheet.create({
     fontSize: 25,
     fontWeight: 'bold',
     textAlign: 'center',
-    padding: 10,
+    paddingTop: 5,
+    paddingBottom: 5,
   },
 });
 
@@ -25,5 +26,6 @@ export default ImageDetail;
 
 ImageDetail.propTypes = {
   title: PropTypes.string,
+  score: PropTypes.number,
   imageSource: PropTypes.number,
 };
