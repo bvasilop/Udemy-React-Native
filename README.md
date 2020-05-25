@@ -23,3 +23,7 @@
 ![alt text](./Readme-Images/state-2.png "Input")
 **List**
 ![alt text](./Readme-Images/state-3.png "List")
+**State LifeCycle**
+![alt text](./Readme-Images/state-4.png "State Life cyle")
+**A Few Notes**
+![alt text](./Readme-Images/state-5.png "Notes")
