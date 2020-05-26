@@ -27,3 +27,7 @@
 ![alt text](./Readme-Images/state-4.png "State Life cyle")
 **A Few Notes**
 ![alt text](./Readme-Images/state-5.png "Notes")
+**Assigning Colors as RGB( )**
+![alt text](./Readme-Images/state-6.png "Colors")
+**Colors Screen**
+![alt text](./Readme-Images/state-7.png "Colors Screen")
