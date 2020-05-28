@@ -2,26 +2,34 @@
 /* eslint-disable no-const-assign */
 /* eslint-disable no-use-before-define */
 import React, { useState } from 'react';
-import { View, StyleSheet, Button } from 'react-native';
+import { View, StyleSheet, Button, FlatList } from 'react-native';
 import PropTypes from 'prop-types';
 
 const ColorScreen = ({ initialColor }) => {
   const [colors, setColors] = useState(initialColor);
 
   return (
-    <View>
+    <View style={styles.images}>
       <Button
         title="Add a Color"
         onPress={() => {
           setColors([...colors, randomRgb()]);
         }}
       />
-      <View
-        style={{
-          height: 100,
-          width: 100,
-          backgroundColor: randomRgb(),
-        }}
+
+      <FlatList
+        keyExtractor={item => item}
+        data={colors}
+        renderItem={({ item }) => (
+          <View
+            style={{
+              height: 130,
+              width: 130,
+              margin: 2,
+              backgroundColor: item,
+            }}
+          />
+        )}
       />
     </View>
   );
@@ -36,11 +44,9 @@ const randomRgb = () => {
 };
 
 const styles = StyleSheet.create({
-  text: {
-    fontSize: 30,
-    fontWeight: 'bold',
-    padding: 10,
-    textAlign: 'center',
+  images: {
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 });
 

@@ -5,12 +5,14 @@ import { Text, StyleSheet, View, Button, TouchableOpacity } from 'react-native';
 const styles = StyleSheet.create({
   text: {
     fontSize: 30,
+    fontWeight: 'bold',
+    textAlign: 'center',
   },
 });
 
 const HomeScreen = ({ navigation }) => (
   <View>
-    <Text style={styles.text}>Hi there!</Text>
+    <Text style={styles.text}>Udemy React-Native</Text>
     <Button
       onPress={() => navigation.navigate('Components')}
       title="Go to Components Demo"
