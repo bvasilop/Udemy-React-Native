@@ -1,4 +1,4 @@
-/* eslint-disable no-empty */
+/* eslint-disable */
 import React, { useState } from 'react';
 import { StyleSheet, View } from 'react-native';
 import PropTypes from 'prop-types';
@@ -12,11 +12,21 @@ const SquareScreen = ({ initialColor }) => {
   const [blue, setBlue] = useState(initialColor);
 
   const setColor = (color, change) => {
-    if (color === 'red') {
-      if (red + change > 255 || red + change < 0) {
-      } else {
-        setRed(red + change);
-      }
+    switch (color) {
+      case 'red':
+        red + change > 255 || red + change < 0 ? null : setRed(red + change);
+        return;
+      case 'green':
+        green + change > 255 || green + change < 0
+          ? null
+          : setGreen(green + change);
+        return;
+      case 'blue':
+        blue + change > 255 || blue + change < 0
+        ? null
+        : setBlue(blue + change);
+      default:
+        return;
     }
   };
   return (
@@ -27,13 +37,13 @@ const SquareScreen = ({ initialColor }) => {
         color="Red"
       />
       <ColorCounter
-        onIncrease={() => setGreen(green + COLOR_INCREMENT)}
-        onDecrease={() => setGreen(green - COLOR_INCREMENT)}
+        onIncrease={() => setColor('green', COLOR_INCREMENT)}
+        onDecrease={() => setColor('green', -1 * COLOR_INCREMENT)}
         color="Green"
       />
       <ColorCounter
-        onIncrease={() => setBlue(blue + COLOR_INCREMENT)}
-        onDecrease={() => setBlue(blue - COLOR_INCREMENT)}
+        onIncrease={() => setColor('blue', COLOR_INCREMENT)}
+        onDecrease={() => setColor('blue', -1 * COLOR_INCREMENT)}
         color="Blue"
       />
       <View
