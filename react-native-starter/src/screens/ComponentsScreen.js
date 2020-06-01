@@ -3,11 +3,17 @@ import { Text, StyleSheet, View } from 'react-native';
 
 const styles = StyleSheet.create({
   titleStyle: {
-    fontSize: 45,
+    fontSize: 25,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   greetingStyle: {
     fontSize: 20,
     color: 'blue',
+  },
+  screen: {
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 });
 
@@ -24,7 +30,7 @@ const greeting = (
 );
 
 const ComponentsScreen = () => (
-  <View>
+  <View style={styles.screen}>
     {title}
     {greeting}
   </View>

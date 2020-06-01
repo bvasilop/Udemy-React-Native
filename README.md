@@ -37,3 +37,9 @@
 - **SquareScreen State Explainer** ![alt text](./Readme-Images/square-state.png "Square State Explainer")
   - **SquareScreen State Explainer** ![alt text](./Readme-Images/square-state-2.png "Square State Explainer")
   - **SquareScreen onChange State Explainer** ![alt text](./Readme-Images/square-state-3.png "Square State Explainer")
+
+**Reducers**
+A reducer is a function that manages changes to an object
+![alt text](./Readme-Images/reducer.png "Reducers")
+
+- ![alt text](./Readme-Images/reducer2.png "Reducers")
