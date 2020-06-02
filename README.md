@@ -43,3 +43,14 @@ A reducer is a function that manages changes to an object
 ![alt text](./Readme-Images/reducer.png "Reducers")
 
 - ![alt text](./Readme-Images/reducer2.png "Reducers")
+
+```javascript
+const [state, dispatch] = useReducer(reducer, { red: 0, green: 0, blue: 0 });
+// state === { red: number, green: number, blue: number }
+// action === { colorToChange: 'red' || 'green' || 'blue', amount: 15 || -15}
+// action === { type: 'change_red' || 'change_green' || 'change_blue', payload: 15 || -15}
+```
+
+**action** means how do we change our state object
+
+**Action object** ![alt text](./Readme-Images/action.png "Actions")
