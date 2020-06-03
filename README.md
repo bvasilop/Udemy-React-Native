@@ -42,7 +42,7 @@
 A reducer is a function that manages changes to an object
 ![alt text](./Readme-Images/reducer.png "Reducers")
 
-- ![alt text](./Readme-Images/reducer2.png "Reducers")
+![alt text](./Readme-Images/reducer2.png "Reducers")
 
 ```javascript
 const [state, dispatch] = useReducer(reducer, { red: 0, green: 0, blue: 0 });
@@ -54,3 +54,5 @@ const [state, dispatch] = useReducer(reducer, { red: 0, green: 0, blue: 0 });
 **action** means how do we change our state object
 
 **Action object** ![alt text](./Readme-Images/action.png "Actions")
+**Counter reducer example** ![alt text](./Readme-Images/counter-reduce.png "Counter reducer example")
+**Text input example** ![alt text](./Readme-Images/text-input.png "Text input")
