@@ -56,3 +56,4 @@ const [state, dispatch] = useReducer(reducer, { red: 0, green: 0, blue: 0 });
 **Action object** ![alt text](./Readme-Images/action.png "Actions")
 **Counter reducer example** ![alt text](./Readme-Images/counter-reduce.png "Counter reducer example")
 **Text input example** ![alt text](./Readme-Images/text-input.png "Text input")
+**Validate input example** ![alt text](./Readme-Images/validate-input.png "Text input")
