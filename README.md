@@ -3,13 +3,13 @@
 ## Primitive Elements
 
 **Types of React Native Primitives:**
-![alt text](./Readme-Images/primitives.png "React Native Primitives")
+![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//primitives.png "React Native Primitives")
 **Questions and Answers**
-![alt text](./Readme-Images/q-a.png "Questions and Answers")
+![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//q-a.png "Questions and Answers")
 **Flat lists**
-![alt text](./Readme-Images/flat-list.png "Flat list")
+![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//flat-list.png "Flat list")
 **Buttons**
-![alt text](./Readme-Images/button.png "Flat list")
+![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//button.png "Flat list")
 
 ## React Navigation
 
@@ -18,31 +18,31 @@
 ## State Management
 
 **Counter**
-![alt text](./Readme-Images/state.png "Counter")
+![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//state.png "Counter")
 **Input**
-![alt text](./Readme-Images/state-2.png "Input")
+![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//state-2.png "Input")
 **List**
-![alt text](./Readme-Images/state-3.png "List")
+![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//state-3.png "List")
 **State LifeCycle**
-![alt text](./Readme-Images/state-4.png "State Life cyle")
+![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//state-4.png "State Life cyle")
 **A Few Notes**
-![alt text](./Readme-Images/state-5.png "Notes")
+![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//state-5.png "Notes")
 **Assigning Colors as RGB( )**
-![alt text](./Readme-Images/state-6.png "Colors")
+![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//state-6.png "Colors")
 **Colors Screen**
-![alt text](./Readme-Images/state-7.png "Colors Screen")
+![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//state-7.png "Colors Screen")
 **Reusable Colors Screen**
-![alt text](./Readme-Images/reusable-colors.png "Reusable Colors Screen")
+![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//reusable-colors.png "Reusable Colors Screen")
 
-- **SquareScreen State Explainer** ![alt text](./Readme-Images/square-state.png "Square State Explainer")
-  - **SquareScreen State Explainer** ![alt text](./Readme-Images/square-state-2.png "Square State Explainer")
-  - **SquareScreen onChange State Explainer** ![alt text](./Readme-Images/square-state-3.png "Square State Explainer")
+- **SquareScreen State Explainer** ![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//square-state.png "Square State Explainer")
+  - **SquareScreen State Explainer** ![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//square-state-2.png "Square State Explainer")
+  - **SquareScreen onChange State Explainer** ![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//square-state-3.png "Square State Explainer")
 
 **Reducers**
 A reducer is a function that manages changes to an object
-![alt text](./Readme-Images/reducer.png "Reducers")
+![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//reducer.png "Reducers")
 
-![alt text](./Readme-Images/reducer2.png "Reducers")
+![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//reducer2.png "Reducers")
 
 ```javascript
 const [state, dispatch] = useReducer(reducer, { red: 0, green: 0, blue: 0 });
@@ -53,23 +53,23 @@ const [state, dispatch] = useReducer(reducer, { red: 0, green: 0, blue: 0 });
 
 **action** means how do we change our state object
 
-**Action object** ![alt text](./Readme-Images/action.png "Actions")
-**Counter reducer example** ![alt text](./Readme-Images/counter-reduce.png "Counter reducer example")
-**Text input example** ![alt text](./Readme-Images/text-input.png "Text input")
-**Validate input example** ![alt text](./Readme-Images/validate-input.png "Validate input")
-**Layout systems example** ![alt text](./Readme-Images/layout.png "Layout")
-**Box model example** ![alt text](./Readme-Images/box-model.png "Box model")
-![alt text](./Readme-Images/box-model-2.png "Box model")
-![alt text](./Readme-Images/box-model-3.png "Box model")
-![alt text](./Readme-Images/shortcuts.png "Box model")
-**Flex example**![alt text](./Readme-Images/flex.png "Flex model")
-**Flex example**![alt text](./Readme-Images/flex-2.png "Flex model")
-**Flex direction example**![alt text](./Readme-Images/flex-3.png "Flex direction model")
-**Flex direction example**![alt text](./Readme-Images/flex-4.png "Flex direction model")
-**Justify content example**![alt text](./Readme-Images/justify-content.png "Justify content example")
-**Justify content example**![alt text](./Readme-Images/justify-content-2.png "Justify content example")
-**Justify content example**![alt text](./Readme-Images/justify-content-3.png "Justify content example")
-**Justify content example**![alt text](./Readme-Images/justify-content-4.png "Justify content example")
-**Flex Child example** ![alt text](./Readme-Images/flex-child-2.png "Flex child content example")
-**Flex Child example** ![alt text](./Readme-Images/flex-child-3.png "Flex child content example")
-**Flex Child example** ![alt text](./Readme-Images/flex-child-4.png "Flex child content example")
+**Action object** ![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images/action.png "Actions")
+**Counter reducer example** ![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images/counter-reduce.png "Counter reducer example")
+**Text input example** ![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//text-input.png "Text input")
+**Validate input example** ![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//validate-input.png "Validate input")
+**Layout systems example** ![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//layout.png "Layout")
+**Box model example** ![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//box-model.png "Box model")
+![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//box-model-2.png "Box model")
+![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//box-model-3.png "Box model")
+![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//shortcuts.png "Box model")
+**Flex example**![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//flex.png "Flex model")
+**Flex example**![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//flex-2.png "Flex model")
+**Flex direction example**![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//flex-3.png "Flex direction model")
+**Flex direction example**![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//flex-4.png "Flex direction model")
+**Justify content example**![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//justify-content.png "Justify content example")
+**Justify content example**![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//justify-content-2.png "Justify content example")
+**Justify content example**![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//justify-content-3.png "Justify content example")
+**Justify content example**![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//justify-content-4.png "Justify content example")
+**Flex Child example** ![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//flex-child-2.png "Flex child content example")
+**Flex Child example** ![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//flex-child-3.png "Flex child content example")
+**Flex Child example** ![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//flex-child-4.png "Flex child content example")
