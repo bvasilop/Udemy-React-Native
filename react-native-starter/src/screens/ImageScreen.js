@@ -27,13 +27,12 @@ const ImageScreen = () => (
 
 const styles = StyleSheet.create({
   image: {
-    justifyContent: 'center',
+    justifyContent: 'space-around',
     alignItems: 'center',
   },
   text: {
     fontSize: 30,
     fontWeight: 'bold',
-    padding: 10,
   },
 });
 

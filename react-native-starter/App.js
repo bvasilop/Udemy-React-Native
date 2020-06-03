@@ -11,6 +11,7 @@ import ColorScreen from './src/screens/ColorScreen';
 import SquareScreen from './src/screens/SquareScreen';
 import TextScreen from './src/screens/TextScreen';
 import ValidateScreen from './src/screens/ValidateScreen';
+import BoxScreen from './src/screens/BoxScreen';
 
 const navigator = createStackNavigator(
   {
@@ -24,6 +25,7 @@ const navigator = createStackNavigator(
     Square: SquareScreen,
     Text: TextScreen,
     Validate: ValidateScreen,
+    Box: BoxScreen,
   },
   {
     initialRouteName: 'Home',
