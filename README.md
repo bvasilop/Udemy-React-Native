@@ -79,3 +79,7 @@ const [state, dispatch] = useReducer(reducer, { red: 0, green: 0, blue: 0 });
 - **alignSelf** (child) overrides **alignItems** (parent) component
 
 **Position Property** ![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//position-property.png "Position Property example")
+
+**Position Property** ![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//position-property-2.png "Position Property example")
+
+**Position Property** ![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//position-property-3.png "Position Property example")
