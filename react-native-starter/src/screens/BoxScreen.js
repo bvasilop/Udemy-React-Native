@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
     borderWidth: 3,
     borderColor: 'black',
     alignItems: 'center',
-    flexDirection: 'row',
+    // flexDirection: 'row',
     height: 200,
     // alignItems: 'flex-end',
     // justifyContent: 'space-around',
@@ -15,19 +15,19 @@ const styles = StyleSheet.create({
     borderWidth: 3,
     borderColor: 'red',
     fontSize: 20,
-    flex: 1,
+    flex: 4,
   },
   textTwoStyle: {
     borderWidth: 3,
     borderColor: 'red',
     fontSize: 20,
-    flex: 1,
+    flex: 4,
   },
   textThreeStyle: {
     borderWidth: 3,
     borderColor: 'red',
     fontSize: 20,
-    flex: 1,
+    flex: 2,
   },
 });
 
