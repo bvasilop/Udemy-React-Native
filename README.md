@@ -73,3 +73,9 @@ const [state, dispatch] = useReducer(reducer, { red: 0, green: 0, blue: 0 });
 **Flex Child example** ![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//flex-child-2.png "Flex child content example")
 **Flex Child example** ![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//flex-child-3.png "Flex child content example")
 **Flex Child example** ![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//flex-child-4.png "Flex child content example")
+
+**Flex Child example** ![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//align-selflayout-systems.png "Flex child content example")
+
+- **alignSelf** (child) overrides **alignItems** (parent) component
+
+**Position Property** ![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//position-property.png "Position Property example")

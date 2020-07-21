@@ -15,19 +15,22 @@ const styles = StyleSheet.create({
     borderWidth: 3,
     borderColor: 'red',
     fontSize: 20,
-    flex: 4,
+    alignSelf: 'flex-start',
+    // flex: 4,
   },
   textTwoStyle: {
     borderWidth: 3,
     borderColor: 'red',
     fontSize: 20,
-    flex: 4,
+    // alignSelf: 'center',
+    // flex: 4,
   },
   textThreeStyle: {
     borderWidth: 3,
     borderColor: 'red',
     fontSize: 20,
-    flex: 2,
+    alignSelf: 'flex-end',
+    // flex: 2,
   },
 });
 
