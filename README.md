@@ -99,3 +99,7 @@ const [state, dispatch] = useReducer(reducer, { red: 0, green: 0, blue: 0 });
 ```css
 ...StyleSheet.absolute.FillObject
 ```
+
+**Applying Layout Systems** ![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//applying-layout.png "Applying Layout Systems example")
+
+**Layout Systems Exercise** ![alt text](https://raw.githubusercontent.com/bvasilop/Udemy-React-Native/master/Readme-images//applying-layout.png "Applying Layout Systems exercise")
